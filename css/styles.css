@@ -262,3 +262,8 @@ li.selected {
   position: relative;
   overflow-x: hidden;
 }
+
+.dataTable tbody td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
