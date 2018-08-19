@@ -262,7 +262,4 @@ li.selected {
   overflow-x: hidden;
 }
 
-.dataTable thead tr {
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
+.dataTable td {word-wrap: break-word}
