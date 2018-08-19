@@ -1,8 +1,8 @@
 html {
-	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
-	background-color: #ffffba;
-	line-height: 1.5;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffba;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -38,16 +38,16 @@ body {
 
 
 fieldset {
-	
-	border: #ccc solid 1px;
-	padding: 2rem;
-	margin-top: 2rem;
-	margin-left: 3rem;
-	width: 90%;
-	color: #ccc;
-	display: block;
-	background-color: #002663;
-	font-weight: bold;
+  
+  border: #ccc solid 1px;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 90%;
+  color: #ccc;
+  display: block;
+  background-color: #002663;
+  font-weight: bold;
 
 }
 
@@ -56,67 +56,67 @@ fieldset {
 
 
 form{
-	display: inline;
-	width: 80%;
-	padding:3rem;
-	font-style: bold;
-	font-size: 15px;
-	font-weight: bolder;
-	color: #ccc;
-	background-color: #7c7d7f;
+  display: inline;
+  width: 80%;
+  padding:3rem;
+  font-style: bold;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #ccc;
+  background-color: #7c7d7f;
 
 }
 
 .blocklabel {
-	display: block;
+  display: block;
 }
 
 #enter-info label {
-	display: block;
-	margin-top: 1rem;
-	font-size: 17px;
+  display: block;
+  margin-top: 1rem;
+  font-size: 17px;
 }
 
 #button1{
-	border: 0;
-	font-weight: bold;
-	padding: .5rem .5rem;
-	font-size: 1rem;
-	border-radius: 7px;
-	width: 20%;
-	display: block;
-	margin-top: 1rem;
+  border: 0;
+  font-weight: bold;
+  padding: .5rem .5rem;
+  font-size: 1rem;
+  border-radius: 7px;
+  width: 20%;
+  display: block;
+  margin-top: 1rem;
 }
 
 #account{
 
-	margin-top: 1rem;
-	margin-left: 4rem;
-	width: 80%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  width: 80%;
 }
 
 #portfolio{
 
-	margin-top: 1rem;
-	margin-left: 4rem;
-	width: 80%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  width: 80%;
 }
 
 
 #link-button{
-	margin-left: auto;
+  margin-left: auto;
     margin-right: auto;
     width: 40%;
 }
 
 .button2{
-	display: inline-block;
-	border: 0;
-	font-weight: bold;
-	padding: .5rem .5rem;
-	font-size: 1rem;
-	border-radius: 5px;
-	margin: 1rem 1rem 1rem 1rem;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: .5rem .5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 table.dataTable {
@@ -149,7 +149,7 @@ table.dataTable tbody tr {
 
         .dataTables_wrapper .dataTables_paginate {
 
-        	color: #ccc; }
+          color: #ccc; }
 
       .dataTables_wrapper {
       border: #ccc solid 1px;
@@ -165,12 +165,12 @@ table.dataTable tbody tr {
 
    .dataTables_wrapper .dataTables_filter{
 
-   	color: #ccc;
+    color: #ccc;
    }
 
    .dataTables_wrapper .dataTables_info {
 
-   	color: #ccc;
+    color: #ccc;
    }
 
 
@@ -181,7 +181,6 @@ $grey : #564F4C;
 $blue-1 : #55D0FB;
 $blue-1-dk : #23c2fa;
 $blue-2 : #9DD6F3;
-
 $text-color-dark : #564F4C;
 $border-color : #564F4C; */
 
@@ -263,7 +262,7 @@ li.selected {
   overflow-x: hidden;
 }
 
-.dataTable tbody td {
+.dataTable thead tr {
   text-overflow: ellipsis;
   overflow: hidden;
 }
