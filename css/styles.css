@@ -1,0 +1,244 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffba;
+	line-height: 1.5;
+}
+
+*, *::before, *::after {
+      box-sizing: inherit;
+    }
+
+    .dataTables_wrapper {
+      border: #222 solid 1px;
+      padding: 2rem;
+    }
+
+header {
+  background-color:  #002663;
+  padding: 10px;
+  text-align: center;
+  color: #ccc;
+
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: none; url(../img/Liberty_back.jpg)
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+fieldset {
+	
+	border: #ccc solid 1px;
+	padding: 2rem;
+	margin-top: 2rem;
+	margin-left: 3rem;
+	width: 90%;
+	color: #ccc;
+	display: block;
+	background-color: #002663;
+	font-weight: bold;
+
+}
+
+
+
+
+
+form{
+	display: inline;
+	width: 80%;
+	padding:3rem;
+	font-style: bold;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #ccc;
+	background-color: #7c7d7f;
+
+}
+
+.blocklabel {
+	display: block;
+}
+
+#enter-info label {
+	display: block;
+	margin-top: 1rem;
+	font-size: 17px;
+}
+
+#button1{
+	border: 0;
+	font-weight: bold;
+	padding: .5rem .5rem;
+	font-size: 1rem;
+	border-radius: 7px;
+	width: 20%;
+	display: block;
+	margin-top: 1rem;
+}
+
+#account{
+
+	margin-top: 1rem;
+	margin-left: 4rem;
+	width: 80%;
+}
+
+#portfolio{
+
+	margin-top: 1rem;
+	margin-left: 4rem;
+	width: 80%;
+}
+
+
+#link-button{
+	margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.button2{
+	display: inline-block;
+	border: 0;
+	font-weight: bold;
+	padding: .5rem .5rem;
+	font-size: 1rem;
+	border-radius: 5px;
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+table.dataTable {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  }
+
+   thead
+{
+  color:#ccc;
+  text-align: left;
+}
+
+table.dataTable tbody tr {
+    background-color: #5381ac;
+    color: #ccc;
+    border-top: #ccc solid;
+     }
+
+   .dataTables_wrapper .dataTables_paginate .paginate_button{
+      color: #ccc !important;
+      border-radius: 2px; }
+
+      .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+        color: #ccc !important;}
+
+        .dataTables_wrapper .dataTables_paginate {
+
+        	color: #ccc; }
+
+      .dataTables_wrapper {
+      border: #ccc solid 1px;
+      padding: 2rem;
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+      width: 90%;
+      color: #ccc;
+      background-color: #002663;
+      text-decoration-color: #ccc;
+    }
+
+   .dataTables_wrapper .dataTables_filter{
+
+   	color: #ccc;
+   }
+
+   .dataTables_wrapper .dataTables_info {
+
+   	color: #ccc;
+   }
+
+
+   // VARIABLES
+// color - http://www.colorion.co/palette/685
+/* $white : #FAFDFE;
+$grey : #564F4C;
+$blue-1 : #55D0FB;
+$blue-1-dk : #23c2fa;
+$blue-2 : #9DD6F3;
+
+$text-color-dark : #564F4C;
+$border-color : #564F4C; */
+
+// BASICS
+* {
+  box-sizing: border-box;
+}
+Body {
+  padding: .1em;
+
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5em;
+  font-size: .87em;
+  font-weight: bold;
+  font-size: 15px;
+}
+select,
+li {
+  font-size: 18px;
+}
+
+// MULTISELECT STYLES
+.customselect {
+  display: none;
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid $border-color;
+    
+    li {
+      display: block;
+      margin: 0;
+      padding: .5em;
+      border-bottom: 1px solid $white;
+      
+      &:hover {
+        cursor: pointer;
+        background: $blue-1-dk;
+      }
+    }
+  }  
+}
+li.selected {
+  background: $blue-1;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+
+.big-drop {
+  width: 600px !important
+
+}
