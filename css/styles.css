@@ -261,5 +261,4 @@ li.selected {
   position: relative;
   overflow-x: hidden;
 }
-
-.dataTable td {word-wrap: break-word}
+td {word-wrap: break-word}
