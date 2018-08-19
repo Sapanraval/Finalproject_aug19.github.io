@@ -243,7 +243,11 @@ li.selected {
 }
 
 .dataTable {
+<<<<<<< HEAD
   width: 80% !important;
+=======
+  width: 50% !important;
+>>>>>>> 445a07be3c1df3711027ad0d9b20a2d8b0a7e4b7
   margin: 0;
 }
 .dataTables_wrapper {
@@ -261,5 +265,9 @@ li.selected {
   position: relative;
   overflow-x: hidden;
 }
+<<<<<<< HEAD
 
 .dataTable td {word-wrap: break-word}
+=======
+td {word-wrap: break-word}
+>>>>>>> 445a07be3c1df3711027ad0d9b20a2d8b0a7e4b7
