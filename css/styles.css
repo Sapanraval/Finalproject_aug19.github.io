@@ -242,6 +242,10 @@ li.selected {
 
 }
 
+.select2 {
+width:100%!important;
+}
+
 .dataTable {
 <<<<<<< HEAD
   width: 80% !important;
@@ -271,3 +275,5 @@ li.selected {
 =======
 td {word-wrap: break-word}
 >>>>>>> 445a07be3c1df3711027ad0d9b20a2d8b0a7e4b7
+
+
